@@ -1,28 +1,46 @@
-# Wildlife Guardian AI
+#Wildlife Guardian AI 🇵🇭🐾
 
-An intelligent system for animal health prediction and endangered species awareness using machine learning.
+A Web-Based Intelligent System for Real-Time Detection and Health Awareness of Endangered Birds and Mammals in the Philippines Using Machine Learning
 
 ## Features
 
-- **Wildlife Detection**: Identify animals in images using AI-powered object detection
-- **Video Analysis**: Process video files to track animal movements and behaviors over time
-- **Live Camera Integration**: Connect to webcams and CCTV for real-time wildlife monitoring
-- **Health Assessment**: Analyze physical characteristics to predict animal health status
-- **Endangered Species Alerts**: Get notified when endangered animals are detected
-- **Conservation Support**: Contribute data to aid wildlife conservation efforts
-- **Global Species Tracking**: Access real-time maps and statistics of animal sightings worldwide
-- **Interactive Dashboards**: Visualize detection trends and conservation impact with real-time charts
+Real-Time Wildlife Detection
+Detect endangered birds and mammals using image, video, or live camera input powered by YOLOv8.
 
+Health Risk Awareness Module
+Identifies visible signs of:
+
+Injury (e.g., wounds, swelling, bleeding)
+
+Malnutrition (e.g., thin body frame, poor feather/fur quality)
+
+Healthy condition
+
+- Species Information Display
+- Automatically retrieves and displays:
+- Common and scientific name
+- Conservation status
+- Estimated population
+- Habitat
+- Estimated lifespan
+- Detected health condition
+- Endangered Species Alerts
+- Notifies users when an endangered species is detected.
+- Educational Awareness Module
+- Provides species profiles and conservation facts to encourage wildlife advocacy.
+
+User-Friendly Web Interface
+Accessible on desktops, tablets, and mobile devices through modern web browsers.
 ## Technical Stack
 
-- **Frontend**: Next.js, React, TailwindCSS
-- **Machine Learning**: TensorFlow.js, COCO-SSD model
-- **Real-time Database**: Firebase Realtime Database for instant data updates
-- **Data Visualization**: Chart.js and Mapbox for real-time analytics
-- **WebRTC**: For live camera streaming capabilities
-- **API**: RESTful architecture
-- **Authentication**: JWT-based auth
-- **Cloud Storage**: For video file processing and storage
+- **Frontend**: Next.js, React, Tailwind CSS
+- **Backend / API**: Python (Flask) with RESTful API architecture
+- **Machine Learning**: YOLOv8 (CNN-based object detection)
+- **Database**: MySQL (via SQLAlchemy ORM)
+- **Data Visualization**: Chart.js for analytics dashboards
+- **Live Camera Input**: Browser-based camera capture
+- **Authentication**: JWT-based authentication
+- **Cloud Storage**: Server-side storage for uploaded images and videos
 
 ## How to Run the System
 
